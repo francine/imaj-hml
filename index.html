@@ -163,8 +163,9 @@ section{padding-block:clamp(3.4rem,9vw,6.6rem)}
 
 /* ---------- NR-1 destaque (carro-chefe) ---------- */
 .nr1{background:var(--panel)}
-.nr1-grid{display:grid;gap:2.2rem;margin-top:2.4rem}
-@media(min-width:900px){.nr1-grid{grid-template-columns:1.1fr .9fr;align-items:start}}
+.nr1-grid{display:grid;gap:2.2rem}
+.nr1-entrega{margin-top:2.4rem}
+@media(min-width:900px){.nr1-grid{grid-template-columns:1.15fr .85fr;gap:clamp(2.4rem,5vw,4.5rem);align-items:center}}
 .nr1 ul{list-style:none;padding:0;margin:1.4rem 0 0;display:grid;gap:.8rem}
 .nr1 li{position:relative;padding-left:1.7rem;color:var(--muted);font-size:.98rem}
 .nr1 li::before{content:"";position:absolute;left:0;top:.55em;width:8px;height:8px;border-radius:50%;background:var(--gold)}
@@ -461,13 +462,14 @@ a.medida:hover{border-color:#E4C57E;background:rgba(203,162,89,.12);color:#EDECE
   <!-- NR-1 CARRO-CHEFE -->
   <section id="nr1" class="nr1" aria-labelledby="nr1-h">
     <div class="wrap">
-      <div class="sec-head reveal">
-        <span class="eyebrow">01 · Carro-chefe · obrigação legal</span>
-        <h2 id="nr1-h">A NR-1 obriga sua empresa a gerir o risco psicossocial. Nós fazemos isso com você.</h2>
-        <p>Com a atualização da norma, sobrecarga, assédio, conflitos, falta de autonomia e metas excessivas passaram a exigir identificação, avaliação e medidas de controle, com registro para comprovar conformidade.</p>
-      </div>
       <div class="nr1-grid">
-        <div class="reveal">
+        <div class="nr1-main">
+          <div class="sec-head reveal">
+            <span class="eyebrow">01 · Carro-chefe · obrigação legal</span>
+            <h2 id="nr1-h">A NR-1 obriga sua empresa a gerir o risco psicossocial. Nós fazemos isso com você.</h2>
+            <p>Com a atualização da norma, sobrecarga, assédio, conflitos, falta de autonomia e metas excessivas passaram a exigir identificação, avaliação e medidas de controle, com registro para comprovar conformidade.</p>
+          </div>
+          <div class="reveal nr1-entrega">
           <h3 style="font-size:1.15rem">O que entregamos</h3>
           <ul>
             <li>Diagnóstico e gerenciamento dos fatores de riscos psicossociais.</li>
@@ -477,6 +479,7 @@ a.medida:hover{border-color:#E4C57E;background:rgba(203,162,89,.12);color:#EDECE
             <li>Políticas, protocolos e fluxos de prevenção e acolhimento.</li>
             <li>Documentação e evidências prontas para auditorias e fiscalizações.</li>
           </ul>
+          </div>
         </div>
         <aside class="benef reveal">
           <h3>O que a empresa ganha</h3>

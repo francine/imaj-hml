@@ -293,10 +293,11 @@ a.medida:hover{border-color:#E4C57E;background:rgba(203,162,89,.12);color:#EDECE
 
 
 /* ---------- APOIO & REINTEGRAÇÃO ---------- */
-.apoio-grid{display:grid;gap:2.2rem;margin-top:2.2rem}
-@media(min-width:820px){.apoio-grid{grid-template-columns:1fr 1fr;gap:3rem}}
+.apoio-layout{display:grid;gap:2rem}
+.apoio-texts{display:grid;gap:2rem}
+@media(min-width:900px){.apoio-layout{grid-template-columns:1.1fr .9fr;grid-template-areas:"head photo" "texts photo";column-gap:clamp(2.4rem,5vw,4.5rem);row-gap:2.2rem}.apoio-head{grid-area:head}.apoio-texts{grid-area:texts}.apoio-layout .apoio-photo{grid-area:photo;align-self:center;aspect-ratio:4/3}}
 .apoio-col h3{font-size:1.18rem;margin-bottom:.7rem}
-.apoio-photo{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;object-position:40% 35%;border-radius:var(--r-lg);margin-bottom:1.5rem;box-shadow:var(--shadow);background:var(--panel)}
+.apoio-photo{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;object-position:35% 40%;border-radius:var(--r-lg);box-shadow:var(--shadow);background:var(--panel)}
 .apoio-col p{color:var(--muted);font-size:1.02rem}
 .apoio-measures{list-style:none;padding:0;margin:.1rem 0 0;display:grid;gap:.95rem}
 .apoio-measures li{position:relative;padding-left:1.6rem;color:var(--muted);font-size:1.02rem}
@@ -557,24 +558,26 @@ a.medida:hover{border-color:#E4C57E;background:rgba(203,162,89,.12);color:#EDECE
   <!-- APOIO & REINTEGRAÇÃO (estratégia Apoiar) -->
   <section id="apoio" aria-labelledby="apoio-h">
     <div class="wrap">
-      <div class="sec-head reveal">
-        <span class="eyebrow">03 · Apoiar · reintegração</span>
-        <h2 id="apoio-h">Quando alguém adoece, o cuidado não termina no diagnóstico.</h2>
-        <p>Apoiar é ajudar quem enfrenta uma condição de saúde mental a acessar cuidado, permanecer no trabalho e prosperar, sem ter de escolher entre a saúde e o emprego.</p>
-      </div>
-      <div class="apoio-grid">
-        <div class="apoio-col reveal">
-          <img class="apoio-photo" src="assets/apoio-cuidado.webp" alt="Mulher conversa com uma psicóloga num consultório" loading="lazy" width="1100" height="619">
-          <h3>O cuidado clínico</h3>
-          <p>O primeiro passo é da área da saúde: o <b>encaminhamento a um psicólogo ou ao médico de família</b>, para que a pessoa receba o tratamento certo no tempo certo.</p>
+      <div class="apoio-layout">
+        <div class="sec-head apoio-head reveal">
+          <span class="eyebrow">03 · Apoiar · reintegração</span>
+          <h2 id="apoio-h">Quando alguém adoece, o cuidado não termina no diagnóstico.</h2>
+          <p>Apoiar é ajudar quem enfrenta uma condição de saúde mental a acessar cuidado, permanecer no trabalho e prosperar, sem ter de escolher entre a saúde e o emprego.</p>
         </div>
-        <div class="apoio-col reveal">
-          <h3>O papel da empresa</h3>
-          <ul class="apoio-measures">
-            <li><b>Acomodações razoáveis</b>, ajustando carga, jornada e funções ao momento da pessoa.</li>
-            <li><b>Reintegração gradual</b>, um retorno acompanhado em vez de um salto de volta.</li>
-            <li><b>Vínculo preservado</b>, mantendo pertencimento e emprego durante a recuperação.</li>
-          </ul>
+        <img class="apoio-photo reveal" src="assets/apoio-acolhida.webp" alt="Gestor acolhe a equipe à mesa, todos sorrindo" loading="lazy" width="1100" height="619">
+        <div class="apoio-texts">
+          <div class="apoio-col reveal">
+            <h3>O cuidado clínico</h3>
+            <p>O primeiro passo é da área da saúde: o <b>encaminhamento a um psicólogo ou ao médico de família</b>, para que a pessoa receba o tratamento certo no tempo certo.</p>
+          </div>
+          <div class="apoio-col reveal">
+            <h3>O papel da empresa</h3>
+            <ul class="apoio-measures">
+              <li><b>Acomodações razoáveis</b>, ajustando carga, jornada e funções ao momento da pessoa.</li>
+              <li><b>Reintegração gradual</b>, um retorno acompanhado em vez de um salto de volta.</li>
+              <li><b>Vínculo preservado</b>, mantendo pertencimento e emprego durante a recuperação.</li>
+            </ul>
+          </div>
         </div>
       </div>
       <p class="apoio-imaj reveal">É aqui que o IMAJ também entra: ajudamos a estruturar os <b>protocolos e fluxos de acolhimento e reintegração</b>, para que apoiar deixe de ser improviso e vire prática da casa. <a id="waApoio" href="#" target="_blank" rel="noopener">Falar sobre isso →</a></p>

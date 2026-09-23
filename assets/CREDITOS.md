@@ -14,7 +14,6 @@ compressão; o vídeo do hero e o poster levaram uma correção de cor (menos sa
 | `card-treinamentos-reuniao.webp` | Presentation during a work team meeting — https://mixkit.co/free-stock-video/presentation-during-a-work-team-meeting-42666/ | card Treinamentos |
 | `card-mediacao-conversa.webp` | A middle-age man teacher wearing glasses talking to a… — https://mixkit.co/free-stock-video/a-middle-age-man-teacher-wearing-glasses-talking-to-a-50117/ | card Mediação |
 | `faixa-silencio.webp` | Focused woman in a professional setting — https://mixkit.co/free-stock-video/focused-woman-in-a-professional-setting-100322/ | faixa da frase (entre Estratégias e NR-1) |
-| `apoio-cuidado.webp` | Woman talking with her psychologist — https://mixkit.co/free-stock-video/woman-talking-with-her-psychologist-32066/ | seção Apoio |
 | `cta-time.webp` | Group of friends having a discussion in the table — https://mixkit.co/free-stock-video/group-of-friends-having-a-discussion-in-the-table-23381/ | fundo do CTA final |
 
 Baixado em 22–23/09/2026 pelo Verve.
@@ -22,3 +21,9 @@ Baixado em 22–23/09/2026 pelo Verve.
 > **Edição (Filó, 23/09):** `hero-equipe.mp4` foi cortado a partir de 3,4s do
 > clipe original (só o trecho em que a equipe já está rindo), desacelerado a
 > 0,7× e com fade de 0,4s na entrada/saída pra suavizar o loop. 5,4s, ~520KB.
+
+> **Troca (Filó, 23/09):** a foto do Apoio (`apoio-cuidado.webp`, consulta com
+> psicóloga — pesada e clínica demais) saiu. Entrou `apoio-acolhida.webp`, quadro de
+> *Work colleagues having happy discussion around a table* —
+> https://mixkit.co/free-stock-video/work-colleagues-having-happy-discussion-around-a-table-48479/
+> (Mixkit Stock Video Free License). Gestor acolhe a equipe: reintegração, não consultório.
